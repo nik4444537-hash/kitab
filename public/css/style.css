@@ -1,0 +1,189 @@
+body {
+  overflow-x: hidden !important;
+}
+
+/* navbar */
+.navbar {
+  background-color: #262a53;
+}
+
+.navbar-brand {
+  color: #f5fdb0 !important;
+}
+
+.navbar a:hover {
+  color: #e4bad4;
+}
+
+.nav-item {
+  margin-left: 4%;
+}
+
+.navbar-nav {
+  margin-left: 3%;
+}
+
+
+
+
+
+/* see all books  style */
+.see-all {
+  padding-top: 20%;
+  margin-left: 3%;
+}
+
+/* anchor tag styles */
+a {
+  text-decoration: none !important;
+  color: #9b72aa;
+}
+
+.headingBooks {
+  color: #7c83fd;
+  text-align: center;
+}
+.zeroResult{
+  margin-left:3%;
+}
+
+
+
+
+
+
+
+/* card style */
+.card {
+  width: 70%;
+  margin-left: 10%;
+  margin-top: 40%;
+}
+.card-image {
+  width: 40%;
+}
+
+.card-title {
+  font-size: 120%;
+}
+
+@media (max-width: 400px) {
+  .card-title {
+    font-size: 80% !important;
+  }
+
+  .card-img-top {
+    width: 10%;
+  }
+  .card-body {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    padding-top: 10px !important;
+    padding-bottom: 0px !important;
+  }
+}
+
+.card-body {
+  width: 100%;
+}
+
+
+
+
+
+
+
+/* carousel style */
+.carousel .carousel-item {
+  height: 700px;
+}
+
+#carouselExampleCaptions {
+  background-color: #f9f9f9;
+}
+
+.carousel-item img {
+  position: absolute;
+  object-fit: cover;
+  top: 0;
+  left: 0;
+  min-height: 700px;
+}
+
+@media (max-width: 500px) {
+  /* carousel style */
+  .carousel .carousel-item {
+    height: 400px;
+  }
+
+  .carousel-item img {
+    position: absolute;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    min-height: 400px;
+  }
+}
+
+
+
+
+
+
+
+/* contact us style */
+.contact-us-container {
+  margin-top: 5%;
+  margin-bottom: 3%;
+}
+
+.cards-container-color {
+  background-color: #f9f9f9;
+  margin-top: 4%;
+}
+
+
+
+
+
+
+
+
+/* footer section */
+a:hover {
+  text-decoration: none;
+}
+.section-padding {
+  padding: 60px 0;
+}
+.bottom {
+  background-color: #0a1c2e;
+}
+.bottom .copyright {
+  color: #e5e5e5;
+  font-weight: 600;
+}
+.copyright a {
+  color: #f2ff49;
+  margin-left: 3px;
+  padding-right: 3px;
+}
+.bottom p {
+  margin-bottom: 0;
+  line-height: 50px;
+  font-size: 16px;
+  font-weight: 400;
+}
+.copyright p span {
+  color: #d1caca;
+}
+.bottom .copyright p,
+.bottom .copyright a:hover {
+  color: #6c6d83;
+}
+
+.footer{
+  position: fixed;
+  bottom: 0;
+  width:100%;
+}
